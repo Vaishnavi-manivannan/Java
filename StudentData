@@ -1,0 +1,24 @@
+/**
+ * Created by Admin on 11/14/2021.
+ */
+public class StudentData {
+            public static void main (String args[])
+            {
+                int StudentAge = 15;
+                double StudentGPA = 6.9;
+
+                boolean StudentPerfectAttendance = true;
+                String StudentFirstName = "Vaishnavi";
+                String StudentLastName = "Manivannan";
+                char StudentFirstInitial = StudentFirstName.charAt(0);
+                char StudentLastInitial = StudentLastName.charAt(0);
+                System.out.println(StudentAge);
+                System.out.println(StudentGPA);
+                System.out.println(StudentFirstInitial);
+                System.out.println(StudentLastInitial);
+                System.out.println(StudentPerfectAttendance);
+                System.out.println(StudentFirstName);
+                System.out.println(StudentLastName);
+
+            }
+}
